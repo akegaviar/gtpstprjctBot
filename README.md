@@ -26,7 +26,7 @@ Provide the tokens and base API url:
 
 * `TELEGRAM_TOKEN=`{your token from @BotFather}
 * `CHAINSTACK_API_KEY=`{your Chainstack API token}
-* `CHAINSTACK_API_URL=`Chainstack API base URL
+* `CHAINSTACK_API_URL=`{Chainstack API base URL}
 
 ## Start bot.js
 
