@@ -7,7 +7,7 @@ const AuthStr = 'Bearer '.concat(process.env.CHAINSTACK_API_KEY);
 let bot = new TelegramBot(token, { polling: true });
 
 // Post project "/newProject name description"
-bot.onText(/\/newProject (.+)/, (msg, match) => {
+bot.onText(/\/newProject (.+) (.+)/, (msg, match) => {
   const chatId = msg.chat.id;
   const project_name = match[1];
   const project_description = match[2];
